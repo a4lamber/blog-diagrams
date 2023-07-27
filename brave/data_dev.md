@@ -11,7 +11,7 @@
 - [结语](#结语)
 
 
-有很多小伙伴提问，加拿大数据人用什么开发环境？我觉得这个问题很有意思，分几个方面让大家了解一下数据人必备的tech stack.
+有很多小伙伴提问，数据用什么开发环境？我觉得这个问题很有意思，分几个方面让大家了解一下数据人必备的tech stack.
 
 
 ![tech stack](./assets/tech.excalidraw.png)
@@ -78,13 +78,14 @@ github是基于git的一个代码托管平台，可以让你的代码托管在�
 
 ### fork, PR and branch
 
-`branch`是git的一个重要概念，它可以让你在同一个project中，同时开发多个feature, 比如你在开发一个网站，你可以同时开发login feature, register feature, profile feature等等，这些feature都是在同一个project中，但是你或者你的队友可以在不同的branch中开发，这样就不会互相影响, 也不会因为要开发几个feature造成project的代码混乱(比如login feature的代码和register feature的代码混在一起). 
+`branch`是git的一个重要概念，试想一下我们在写essay时，我有很多版本，试验各种version, 我们有很多不同版本的essay在同一个folder中，久而久之就一团麻. 对代码也是一样的，`branch`
+可以让你在同一个project中，同时开发多个feature, 比如你在开发一个网站，你可以同时开发login feature, register feature, profile feature等等，这些feature都是在同一个project中，但是你或者你的队友可以在不同的branch中开发，这样就不会互相影响, 也不会因为要开发几个feature造成project的代码混乱(比如login feature的代码和register feature的代码混在一起). 
 
 `pull request`可以让你在github上，对一个project进行修改，然后你可以把你的修改，提交给原来的project的owner, 让他来决定是否merge你的修改. 相当于提交一个修改的申请. 当你开发完一个feature后，你可以提交pull request (PR), reviewer把这个feature的代码merge到master branch中，这样就完成了一个feature的开发.
 
-`fork`它可以让你在github上，复制一个别人的project, 然后你可以在你的github上，对这个project进行修改，修改或开发这个project的代码，然后提交一个PR，merge到原来的project中，这样就可以让你和其他开发者协作了.
+`fork`它可以让你在github上，复制一个别人的project到你的github remote repository上，然后你可以对这个project进行修改或开发这个project，然后提交一个PR，merge到原来的project中，这样就可以让你和其他开发者协作了.
 
 
 # 结语
-
 这些是常用的开发环境，也是加拿大数据人必知必会的，小伙伴们在求职过程中要掌握哦.
+
